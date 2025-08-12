@@ -80,7 +80,7 @@ tasks {
 
         // See https://github.com/catppuccin/jetbrains/blob/27949117de78e8f33f1d5bbeaec975ac9a7c15fe/build.gradle.kts
         // for this rationale
-        sinceBuild.set(properties("pluginSinceBuild"))
+        // sinceBuild.set(properties("pluginSinceBuild"))
         // untilBuild.set(properties("pluginUntilBuild"))
 
         pluginDescription.set(provider {

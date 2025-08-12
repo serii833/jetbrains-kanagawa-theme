@@ -43,7 +43,7 @@ dependencies {
 
         pluginVerifier()
         zipSigner()
-        instrumentationTools()
+        // instrumentationTools()
     }
 }
 
@@ -91,6 +91,10 @@ tasks {
             file("$htmlPath/CHANGE_NOTES.html").readText()
         })
 
+    }
+
+    buildSearchableOptions {
+        enabled = false
     }
 
 //    signPlugin {
